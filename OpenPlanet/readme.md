@@ -1,3 +1,3 @@
-## ArhipelagoOP repository
+# ArchipelagoMW repository
 
-# This repos contains the plugins for Trackmania 2020
+## This repos contains the plugins for Trackmania 2020
