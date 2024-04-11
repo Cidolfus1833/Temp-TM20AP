@@ -1,0 +1,9 @@
+const string MX_NAME                    = "TrackmaniaExchange";
+const string SHORT_MX                   = "TMX";
+const string MX_URL                     = "trackmania.exchange";
+const string SUPPORTED_MAP_TYPE         = "TM_Race";
+const string DEFAULT_MODE               = "";
+const string RMC_MX_Url 		        = "https://trackmania.exchange";
+const string PLUGIN_NAME		        = "AP";
+const string MAP_DOWNLOAD               = "/maps/download/";
+const string MAP_DOWNLOADED             = "Maps/Downloaded";

@@ -1,0 +1,7 @@
+[meta]
+name        = "Archipelago Multi-World"
+author      = "Cidolfus1833"
+category    = "Testing"
+
+[script]
+dependencies = [ "NadeoServices" ]
