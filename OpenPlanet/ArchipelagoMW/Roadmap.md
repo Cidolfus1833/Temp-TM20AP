@@ -27,3 +27,7 @@
 - Items
 - Locations
 - Basic give & takes
+
+## Code & docs
+- Update
+- Translate in english
