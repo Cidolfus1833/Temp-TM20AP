@@ -65,7 +65,7 @@ string bridge="http://127.0.0.1:5108";
 [Setting hidden]
 float ObjectiveMedal = 1.06;// 1=AT, 1.06=Gold, 1.20=Silver 1.50=Bronze
 [Setting hidden]
-string UseCeilForGoal = "1";
+int UseCeilForGoal = 1;
 [Setting hidden]
 bool uiHideComplete;
 

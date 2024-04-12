@@ -73,7 +73,7 @@ namespace HS
             auto data = req.String();
             Log::Trace("APC Data: "+ data);
             auto json = Json::Parse(data);
-            ObjectiveMedal =  Text::ParseFloat(json["goalPerMaps"])/100;
+            ObjectiveMedal =  json["goalPerMaps"]/100.0;
             Log::Trace("ObjectiveMedal: " + ObjectiveMedal);
             UseCeilForGoal = json["ceilToSeconds"];
         }
@@ -114,7 +114,7 @@ namespace HS
 
                     for (uint i = 0; i < res.Length; i++) 
                     {
-                        int mapLooped = Text::ParseInt(res[i]);
+                        int mapLooped = res[i];
                         if(!GL::MapAlreadyIn(mapLooped))
                         {
                             Location loc;
@@ -126,12 +126,9 @@ namespace HS
 
                     for (uint i = 0; i < comp.Length; i++) 
                     {
-                        if(comp[i] != "")
-                        {
-                            uint mapLooped = Text::ParseInt(comp[i]);
-                            if(mapLooped>=0 || mapLooped<=GL::Locations.Length)
-                                GL::Locations[mapLooped-1].Checked = true;
-                        }
+                        uint mapLooped = comp[i];
+                        if(mapLooped>=0 || mapLooped<=GL::Locations.Length)
+                            GL::Locations[mapLooped-1].Checked = true;
                     }
             }
             else

@@ -11,7 +11,7 @@ class Location
     void SetGoldTime()
     {
         uint Goal = Text::ParseInt("" + Math::Round(AT_Time * ObjectiveMedal));
-        if(UseCeilForGoal == "1")
+        if(UseCeilForGoal == 1)
         {
             //uint realGold = Text::ParseInt("" + Math::Round(AT_Time * ObjectiveMedal));
             uint remains = Goal % 1000;
