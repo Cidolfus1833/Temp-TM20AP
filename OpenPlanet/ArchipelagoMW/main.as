@@ -37,7 +37,7 @@ void Main()
   LogAPSetting();
 
   //DownloadMap(62365, "test");
-  HS::SendMessage("Test");
+  //HS::SendMessage("Test");
 }
 
 void RenderMenu()
