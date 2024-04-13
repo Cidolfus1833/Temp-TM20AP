@@ -1,5 +1,7 @@
 ## Procedure for installing and testing this Alpha.
 
+# this file and folder are no more up to date. They will be deleted
+
 # Require
 A paid version of Trackmania 2020
 The openplanet pluging https://openplanet.dev
