@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Campaign Spring 2024",
+        "type": "Campaign",
+        "PackId": "4402",
+        "Maps": [
+            {"name": "Spring 2024 - 01", "mapid": 164089},
+            {"name": "Spring 2024 - 02", "mapid": 164088},
+            {"name": "Spring 2024 - 03", "mapid": 164087},
+            {"name": "Spring 2024 - 04", "mapid": 164086},
+            {"name": "Spring 2024 - 05", "mapid": 164085},
+            {"name": "Spring 2024 - 06", "mapid": 164083},
+            {"name": "Spring 2024 - 07", "mapid": 164084},
+            {"name": "Spring 2024 - 08", "mapid": 164082},
+            {"name": "Spring 2024 - 09", "mapid": 164081},
+            {"name": "Spring 2024 - 10", "mapid": 164080},
+            {"name": "Spring 2024 - 11", "mapid": 164079},
+            {"name": "Spring 2024 - 12", "mapid": 164078},
+            {"name": "Spring 2024 - 13", "mapid": 164077},
+            {"name": "Spring 2024 - 14", "mapid": 164076},
+            {"name": "Spring 2024 - 15", "mapid": 164075},
+            {"name": "Spring 2024 - 16", "mapid": 164074},
+            {"name": "Spring 2024 - 17", "mapid": 164073},
+            {"name": "Spring 2024 - 18", "mapid": 164072},
+            {"name": "Spring 2024 - 19", "mapid": 164071},
+            {"name": "Spring 2024 - 20", "mapid": 164070},
+            {"name": "Spring 2024 - 21", "mapid": 164069},
+            {"name": "Spring 2024 - 22", "mapid": 164068},
+            {"name": "Spring 2024 - 23", "mapid": 164067},
+            {"name": "Spring 2024 - 24", "mapid": 164066},
+            {"name": "Spring 2024 - 25", "mapid": 164065}
+        ]
+    }
+]
+
